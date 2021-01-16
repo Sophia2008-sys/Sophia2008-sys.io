@@ -1,0 +1,23 @@
+.content {
+	background-color: #a1f1ff;
+	width:1200px;
+	margin:0px auto ;
+}
+.row {
+	display: flex;
+}
+.row .box {
+	margin: 10px;
+	width: 100px;
+	flex-grow: 1;
+	background-color:#00eaff; 
+}
+.col-1 {
+	flex-grow: 1;
+}
+.col-3 {
+	flex-grow: 3;
+}
+h1{
+	text-align: center;
+}

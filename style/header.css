@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap');
+*{
+	margin: 0;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+header {
+	height: 100px ;
+	background-color: #00eeff;
+	display: flex;
+	position:sticky;
+	top:0;
+	left:0;
+}
+header .box {
+	margin: 10px ;
+	background-color:#1900ff ; 
+	width: 100px ;
+	flex-grow:1 ;
+	border-radius: 10px;
+	border: 3px solid#b700ff;
+}
+header .box:hover {
+	background-color: #ff73ec;
+	border: 3px solid#73f3ff ;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+header .box a {
+	color: #ff0000 ;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block; 
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	line-height: 70px;  
+	font-family: 'Lobster', cursive;
+}
+h1 {
+font-family: 'Pattaya', sans-serif;	
+}
